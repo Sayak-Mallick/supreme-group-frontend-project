@@ -14,6 +14,100 @@ const Footer = () => {
             priority={false}
           />
         </div>
+        <div className='max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8'>
+          <div>
+            <Image
+              src='/logo.png'
+              alt='Supreme Group logo'
+              width={160}
+              height={40}
+            />
+          </div>
+          <div>
+            <h3 className='text-sm font-semibold mb-4 uppercase'>Applications</h3>
+            <ul className='space-y-2 text-sm'>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Apparel
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Automotive
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Filtration
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Customised Nonwoven
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className='text-sm font-semibold mb-4 uppercase'>Company</h3>
+            <ul className='space-y-2 text-sm'>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Who We Are
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Global Competency
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Innovation
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  ESG Impact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className='text-sm font-semibold mb-4 uppercase'>More</h3>
+            <ul className='space-y-2 text-sm'>
+              <li>
+                <a href='#contact' className='hover:underline'>
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:underline'>
+                  Careers
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className='text-sm font-semibold mb-4 uppercase'>Follow Us</h3>
+            <ul className='space-y-2 text-sm'>
+              <li>
+                <a
+                  href='https://www.linkedin.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='hover:underline'
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className='border-gray-300 pt-4 text-sm text-gray-600 flex flex-col md:flex-row justify-between max-w-7xl mx-auto px-6 py-4'>
+          <span>©{new Date().getFullYear()}. All Rights Reserved.</span>
+          <span>Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.</span>
+        </div>
       </footer>
     </>
   )

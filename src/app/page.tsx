@@ -7,7 +7,7 @@ import Solutions from './components/Solutions';
 export default function Home() {
   return (
     <>
-      <main className="main-container">
+      <main>
         <Navbar />
         <Hero />
         <Solutions />
