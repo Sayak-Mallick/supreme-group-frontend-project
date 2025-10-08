@@ -35,7 +35,7 @@ const Navbar = () => {
         <nav className='main-container flex items-center justify-between py-2 xlg:py-1 mx-auto'>
           <Link href='/'>
             <Image
-              src='https://supreme-group.vercel.app/static/media/logo.68f5b8493efb88f7cd65756bf67a1f5b.svg'
+              src='/logo.png'
               width={170}
               height={40}
               alt='Logo of Supreme Group'
