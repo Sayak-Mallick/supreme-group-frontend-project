@@ -2,6 +2,9 @@
 
 A modern, performance-optimized website for Supreme Group, specializing in soft trims and NVH (Noise, Vibration, and Harshness) solutions for automotive applications. Built with Next.js 15, featuring smooth animations, responsive design, and interactive video content.
 
+## 🌐 Live Demo
+**[View Live Website](https://supreme-group-frontend-project.vercel.app/)**
+
 ## 🚀 Project Setup Instructions
 
 ### Prerequisites
@@ -12,7 +15,7 @@ A modern, performance-optimized website for Supreme Group, specializing in soft 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Sayak-Mallick/supreme-group-frontend-project.git
    cd supreme-group
    ```
 
