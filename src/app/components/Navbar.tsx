@@ -42,15 +42,6 @@ const Navbar = () => {
               loading='eager'
             />
           </Link>
-          <ul className='hidden md:flex items-center gap-8 text-gray-700 font-medium'>
-            <li className='text-lg'>
-              <Link href='#solutions' className='hover:text-blue-600 transition-colors duration-300'>Solutions</Link>
-              <Link href='#contact' className='ml-6 hover:text-blue-600 transition-colors duration-300'>Contact</Link>
-            </li>
-            <li>
-              <Link href='https://supreme-group.in/careers' target='_blank' rel='noopener noreferrer' className='px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300'>Careers</Link>
-            </li>
-          </ul>
         </nav>
       </header>
     </>

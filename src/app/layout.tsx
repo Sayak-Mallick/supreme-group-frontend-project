@@ -19,7 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    // suppressHydrationWarning prevents React from logging hydration attribute/DOM mismatch
+    // warnings for this subtree (useful when browser extensions inject attributes like
+    // `fusion-extension-loaded` or `webcrx` that differ from the server HTML).
+    <html lang='en' suppressHydrationWarning>
       <body className={`${manrope.variable} antialiased`}>
         <ScrollProvider />
         {children}
